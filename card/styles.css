@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+/* Inicio de estilos */
+body{
+    background-color: black;
+    color: rgb(51, 187, 245);
+    font-size: 1.25  rem;
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),                  url("./modern-gold-background-free-vector.jpg"); */
+    background-image: url("./modern-gold-background-free-vector.jpg");
+}
+.main{
+    display: inline;
+    position: relative;
+}
+
+
+.left{
+    text-align: right;
+
+    display: inline-block;
+    width:29%;
+    vertical-align:middle;
+    /* border: 3px solid white; */
+    height: 99vh;
+    /* text-align: center; */
+    /* padding: 2px; */
+    /* margin: 0; */
+    /* background-color: lightcoral; */
+}
+
+.right{
+    width: 70vh;
+    /* vertical-align: midle; */
+    height: 99vh;
+    vertical-align:middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 0;
+    padding: 2px;
+    margin: 0;
+    display: inline-block;
+    width: 69%;
+    background-color: rgba(27, 27, 27, 0.395);
+}
+
+.centrar{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 20%;
+}
+
+.centrar h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-shadow: 0px 6px 8px rgba(255, 140, 0, 0.467);
+}
+
+.centrar h2 {
+    font-weight: 200;
+    font-size: 1.6rem;
+    /*  text-shadow:  inset 5px 1px black; */
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000
+
+}
+
+.clickme{
+    margin-top: 150px;
+    width: 400px;
+    font-size: 2.6rem;
+    border-radius: 42px;
+    border: none;
+    background-color: rgba(27, 172, 240, 0.79);
+    
+}
+
+.clickme:hover{
+    background-color: rgba(10, 228, 243, 0.973);
+}
+
+.imgcontainer{
+    margin-top:30%;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 12px 12px 13px rgba(239, 243, 9, 0.158);
+}
